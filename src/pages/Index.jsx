@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 import ContactForm from '../components/ContactForm';
 
@@ -14,7 +12,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
       <main className="flex-grow container mx-auto px-4 py-8">
         <section className="mb-12">
           <h2 className="text-3xl font-bold mb-6">Welcome to Our Bakery</h2>
@@ -33,7 +30,6 @@ const Index = () => {
           <ContactForm />
         </section>
       </main>
-      <Footer />
     </div>
   );
 };
